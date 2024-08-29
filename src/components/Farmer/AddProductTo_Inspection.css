@@ -1,0 +1,80 @@
+/* Container Styling */
+.add-inspect {
+    background-image: url('D:\Blockchain\Blockchain_Olympiad\src\components\Farmer\images\Fa5.jpg') !important; /* Keep background image */
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form Container Styling */
+.add-inspect-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Form Page Styling */
+.form-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgba(245, 245, 245, 0.181) !important; /* Pink background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Group Styling */
+.form-group {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="file"],
+.form-group input[type="number"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    height: 70px;
+}
+
+/* Submit Button Styling */
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px !important;
+    background-color: #07bc0c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: white;
+    color: #07bc0c;
+}

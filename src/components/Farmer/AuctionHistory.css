@@ -1,0 +1,105 @@
+.auctionhistorypage {
+    background-image: url('D:\Blockchain\Blockchain_Olympiad\src\components\Farmer\images\loginsignupbg.jpg') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    min-height: 100vh !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 20px !important;
+}
+
+.auction_history_page {
+    background-color: rgba(255, 255, 255, 0) !important; /* Semi-transparent background */
+    padding: 20px !important;
+    border-radius: 10px !important; /* Rounded corners for a nicer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important; /* Subtle shadow for depth */
+    width: 100% !important;
+    max-width: 1200px !important; /* Ensure it's responsive */
+}
+
+.button-container {
+    display: flex !important;
+    justify-content: center !important;
+    gap: 20px !important; /* Space between buttons */
+    margin-bottom: 20px !important; /* Space below the buttons */
+}
+
+.aution-button {
+    padding: 10px 20px !important;
+    font-size: 20px !important;
+    margin-bottom: 20px !important;
+    background-color: #07bc0c !important;
+    color: white !important;
+    border-width: 1px !important; /* Set the border width */
+    border-style: solid !important; /* Ensure the border is solid */
+    border-color: #07bc0c !important; /* Set the border color */
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    margin-top: 50px;
+}
+
+.aution-button:hover {
+    background-color: white !important;
+    color: #07bc0c !important;
+    border-color: #079f2a !important;
+}
+
+/* Styling for the Auctioned Product section */
+.auctioned-product {
+    width: 95% !important;
+    margin: 50px auto !important;
+    padding: 20px !important;
+    background-color: rgba(245, 245, 245, 0.636) !important;
+}
+
+/* Heading style */
+.auctioned-product h3 {
+    text-align: left !important;
+    margin-bottom: 15px !important;
+    color: #079f2a !important;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Style for the list */
+.product-list {
+    list-style: none !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+/* Flexbox for aligning text and ensuring all items are spaced evenly */
+.product-list li {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 20px 0 !important;
+    border-bottom: 1px solid #ccc !important;
+    border-color: #079f2a !important;
+}
+
+.product-list li span {
+    font-size: 16px !important;
+    font-weight: bold !important;
+}
+.delete-button-auction {
+    background-color: transparent ; /* Force transparent background */
+    border: none ;
+    padding: 0 ; /* Remove any padding */
+    margin: 0 ; /* Remove any margin */
+    cursor: pointer ;
+}
+
+.delete-button-auction svg {
+    color: red ; /* Force icon color */
+    font-size: 18px ; /* Ensure the icon size */
+}
+
+.delete-button-auction:hover svg {
+    color: darkred  ;
+}
+
+
+

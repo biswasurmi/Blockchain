@@ -1,0 +1,84 @@
+/* Background styling for the entire section */
+.inspector-option {
+    /* background-image: url('D:\Blockchain\Blockchain_Olympiad\src\components\Farmer\images\wood.jpg'); /* Correct the path if necessary */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 45vh;
+    /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(178, 221, 186, 0.578);
+}
+
+/* Container styling */
+.flashsale-container {
+    display: flex;
+    justify-content: center;
+    /* Center items */
+    flex-wrap: wrap;
+    gap: 10px;
+    /* Space between cards */
+}
+
+/* Card styling */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    /* Increased padding */
+    width: 200px;
+    /* Set a fixed width */
+    height: 180px;
+    /* Set a fixed height */
+    margin: 10px;
+    /* Space around cards */
+    background-color: white;
+    /* White background for cards */
+    border-radius: 8px;
+    /* Rounded corners for cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Shadow for depth */
+}
+
+/* Image styling */
+.card-body img {
+    width: 80px;
+    /* Increased width */
+    height: auto;
+    /* Maintain aspect ratio */
+    max-height: 100%;
+    /* Limit image height */
+    object-fit: cover;
+    /* Ensure image covers the space without distortion */
+    margin-bottom: 10px;
+    /* Space below image */
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #07bc0c;
+    /* Green background for buttons */
+    border-color: #07bc0c;
+    /* Green border */
+    color: white;
+    /* White text */
+    font-size: 0.9rem;
+    /* Slightly larger font size */
+    padding: 10px;
+    /* Increased padding */
+    border-radius: 4px;
+    font-weight: 600;
+    /* Rounded corners for buttons */
+}
+
+.btn-primary:hover {
+    background-color: white;
+    border-color: #07bc0c;
+    color: #07bc0c;
+    /* Darker green border on hover */
+}

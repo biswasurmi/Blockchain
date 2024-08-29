@@ -1,0 +1,78 @@
+/* Remove this global body background styling */
+
+/* Apply the background image to a specific container */
+.account-page {
+    background-image: url('D:\Blockchain\Blockchain_Olympiad\src\components\Farmer\images/Fa5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.account-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* Ensures full height coverage */
+    padding: 20px;
+    border-radius: 10px;
+    border-color: #07bc0c;
+}
+
+.account-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Slightly transparent form background */
+    padding: 20px;
+    border-radius: 10px;
+    border-color: #07bc0c;
+    width: 100%;
+    max-width: 600px;
+    /* Adjust width as needed */
+}
+
+.form-group {
+    margin-bottom: 15px;
+    border-color: #07bc0c;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    border-color: #07bc0c;
+    transition: all 0.3s ease;
+    /* Smooth transition for focus effects */
+}
+
+.form-control:focus {
+    border-color: #07bc0c;
+    outline: none;
+    /* Remove default outline */
+    background-color: rgba(7, 188, 12, 0.1);
+    /* Slightly change background color on focus */
+}
+
+.button-accountdetails {
+    background-color:#07bc0c;
+    border-color: #07bc0c;
+    color: white;
+    font-size: 16px !important;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-accountdetails:hover {
+    background-color: white;
+    border-color: #07bc0c;
+    color: #07bc0c;
+
+    /* Slightly darker shade on hover */
+}

@@ -1,0 +1,104 @@
+.auctionhistorypage {
+    background-image: url('D:\Blockchain\Blockchain_Olympiad\src\components\Farmer\images\loginsignupbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.auction_history_page {
+    background-color: rgba(255, 255, 255, 0); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for a nicer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 100%;
+    max-width: 1200px; /* Ensure it's responsive */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+    margin-bottom: 20px; /* Space below the buttons */
+}
+
+.sales-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-color: #07bc0c;
+    color: white;
+    border-width: 1px; /* Set the border width */
+    border-style: solid; /* Ensure the border is solid */
+    border-color: #079f2a; /* Set the border color */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sales-button:hover {
+    background-color: white;
+    color: #07bc0c;
+    border-color: #079f2a;
+}
+
+/* Styling for the Auctioned Product section */
+.auctioned-product {
+    width: 95%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(245, 245, 245, 0.636);
+}
+
+/* Heading style */
+.auctioned-product h3 {
+    text-align: left;
+    margin-bottom: 15px;
+    color: #079f2a;
+}
+
+/* Style for the list */
+.product-list {
+    list-style: none;
+    border: none;
+    padding: 0;
+}
+
+/* Flexbox for aligning text and ensuring all items are spaced evenly */
+.product-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+    border-color: #079f2a;
+}
+
+.product-list li span {
+    font-size: 16px;
+    font-weight: bold;
+}
+.delete-button {
+    background-color: transparent ; /* Force transparent background */
+    border: none ;
+    padding: 0; /* Remove any padding */
+    margin: 0; /* Remove any margin */
+    cursor: pointer;
+}
+
+.delete-button svg {
+    color: red ; /* Force icon color */
+    font-size: 18px ; /* Ensure the icon size */
+}
+
+.delete-button:hover svg {
+    color: darkred ;
+}
+
+
+
+
+

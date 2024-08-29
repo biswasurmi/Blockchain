@@ -1,0 +1,58 @@
+.Whole-out{
+   margin:50px;
+   padding: 60px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   background-color:  rgba(178, 221, 186, 0.578);
+   
+}
+.whole-out1{
+   padding: 20px;
+   width: 150px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.bid-img1{
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+}
+.whole-out3{
+   color: rgb(19, 57, 19);
+   font-weight: 600;
+   font-size: 15px;
+   font-style: none;
+
+}
+.whole-out2{
+   text-align: center;
+}
+
+.p_sell_out1{
+    
+    background-color: rgb(153, 225, 153);
+    font-size: 18px;
+    font-weight: 700;
+    margin:100px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+.p_sell_out2{
+    padding-top: 20px;
+}
+.p_sell_out3{
+   font-size: 18px;
+   font-weight: 700;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+} 
+
+.whole{
+    margin: 0px 50px;
+}

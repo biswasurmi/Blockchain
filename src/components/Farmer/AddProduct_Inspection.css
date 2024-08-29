@@ -1,0 +1,91 @@
+
+/* Apply the background image to a specific container */
+.addproduct-inspection-page {
+    background-image: url('D:\Blockchain\Blockchain_Olympiad\src\components\Farmer\images/bp.jpeg') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    min-height: 100vh !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.button-container {
+    position: absolute !important;
+    top: 90px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+}
+
+.add-product-button {
+    padding: 10px 20px !important;
+    font-size: 20px !important;
+    background-color: #07bc0c !important;
+    color: white !important;
+    border-color: white !important;
+    border-radius: 7px !important;
+    cursor: pointer !important;
+    margin-top: 70px;
+}
+
+.add-product-button:hover {
+    background-color: white !important;
+    color: #07bc0c !important;
+    border-color: #07bc0c !important;
+}
+
+/* Styling for Inspected Product section */
+.inspected-product {
+    
+    width: 95% !important;
+    margin: 50px auto 0 !important;
+    /* Top margin ensures space for the Add Product button */
+    padding: 20px  !important;
+}
+
+/* Heading style */
+.inspected-product h3 {
+    text-align: left !important;
+    margin-bottom: 15px !important;
+    color: #07bc0c !important;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Style for the list */
+.product-list {
+    list-style: none !important;
+    padding: 0 !important;
+}
+
+/* Flexbox for aligning text and button in list items */
+.product-list li {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 8px 0 !important;
+    border-bottom: 1px solid #ccc !important;
+}
+
+.product-list li span {
+    font-size: 22px !important;
+}
+
+/* Style for Show Certificate button */
+.product-list li button {
+    background-color: #079f2a !important;
+    /* Green color */
+    color: white !important;
+    font-size: 20px !important;
+    border:none !important;
+    padding: 5px 10px !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+}
+
+.product-list li button:hover {
+    background-color: white !important;
+    color: #07bc0c !important;
+    border-color: #07bc0c !important;
+    /* Darker green on hover */
+}

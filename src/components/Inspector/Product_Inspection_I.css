@@ -1,0 +1,88 @@
+/* Apply the background image to a specific container */
+.product-inspection-page {
+    background-image: url('D:/Blockchain/Blockchain_Olympiad/src/components/Farmer/images/bp.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.add-product-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #07bc0c;
+    color: white;
+    border-color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.add-product-button:hover {
+    background-color: white;
+    color: #07bc0c;
+    border-color: #07bc0c;
+}
+
+/* Styling for Inspected Product section */
+.inspected-product {
+
+    width: 95%;
+    margin: 50px auto 0;
+    /* Top margin ensures space for the Add Product button */
+    padding: 20px;
+}
+
+/* Heading style */
+.inspected-product h3 {
+    text-align: left;
+    margin-bottom: 15px;
+    color: #07bc0c;
+}
+
+/* Style for the list */
+.product-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Flexbox for aligning text and button in list items */
+.product-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.product-list li span {
+    font-size: 16px;
+}
+
+/* Style for Show Certificate button */
+.product-list li button {
+    background-color: #079f2a;
+    /* Green color */
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.product-list li button:hover {
+    background-color: white;
+    color: #07bc0c;
+    border-color: #07bc0c;
+    /* Darker green on hover */
+}

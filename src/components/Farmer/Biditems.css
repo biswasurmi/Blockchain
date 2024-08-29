@@ -1,0 +1,67 @@
+.btn1{ 
+  
+  /* bid now */
+
+   background-color: rgb(15, 42, 15);
+   color:White;
+   font-weight: bold;
+   padding: 10px 15px;
+   border-radius: 10px;
+   margin: 10px 0px;
+
+  
+    
+}
+
+.course-category1{
+
+
+  background:rgb(214, 235, 214);
+  opacity: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.product1{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 10px;
+    
+}
+
+.bid-content{
+    font-weight: bold;
+    font-size: 15px;
+    padding:5px 14px;
+   
+    background-color: rgb(236, 236, 234);
+    margin: 5px 2px;
+    border-radius: 10px;
+}
+
+.items{
+   margin: 20px 50px;
+   background-color: rgb(152, 201, 152);
+}
+.container11{
+     padding: 200px 50px;
+}
+.item-btn{
+  background-color: rgb(152, 201, 152);
+   font-size: 18px !important;
+   font-weight: 700;
+   margin-left: 250px !important;
+   margin-right: 10px;
+}
+
+.prod-img1{
+   height: 200px;
+   width: 200px;
+}
+
+.button1{
+     font-size: 15px !important;
+     margin-left: 170px;
+}

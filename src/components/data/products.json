@@ -1,0 +1,45 @@
+[
+    {
+      "id": "1",
+      "name": "Airpod",
+      "description": "The newly introduced to the AirPods 2 H1 chip allows for a swift switch between the configurable devices, those including iPhone, iPad, iPod Touch, Apple Watch, Apple TV and Mac...",
+      "price": 16000,
+      "image": "../components/images/spices/cardamom.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Bag",
+      "description": "The main compartment of a backpack typically has two large compartments...",
+      "price": 4500,
+      "image": "./images/spices/cardamom.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Body Spray",
+      "description": "A light and refreshing fragrance, this body spray will be sure to refresh your senses...",
+      "price": 1500,
+      "image": "./images/spices/cumin powder.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Camera",
+      "description": "Introducing the latest in cutting-edge camera technology...",
+      "price": 22000,
+      "image": "./images/spices/garam masala.jpg"
+    },
+    {
+      "id": "5",
+      "name": "iPhone",
+      "description": "Apple's iPhone is a small device that can be used for a variety of purposes...",
+      "price": 110000,
+      "image": "./images/spices/red-chilli.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Laptop",
+      "description": "The new, improved laptop has all the features you want...",
+      "price": 260000,
+      "image": "./images/spices/turmeric powder.jpg"
+    }
+  ]
+  

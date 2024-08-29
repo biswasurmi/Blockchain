@@ -1,0 +1,62 @@
+/* Background styling for the entire section */
+.farmer-option {
+    /* background-image: url('D:\Blockchain\Blockchain_Olympiad\src\components\Farmer\images\wood.jpg') !important; /* Correct the path if necessary */
+    background-size: cover !important; 
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    min-height: 45vh !important; /* Full viewport height */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: rgba(178, 221, 186, 0.578) !important;
+}
+
+/* Container styling */
+.flashsale-container {
+    display: flex !important;
+    justify-content: center !important; /* Center items */
+    flex-wrap: wrap !important;
+    gap: 10px !important; /* Space between cards */
+}
+
+/* Card styling */
+.card-body {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    text-align: center !important;
+    padding: 20px !important; /* Increased padding */
+    width: 200px !important; /* Set a fixed width */
+    height: 180px !important; /* Set a fixed height */
+    margin: 10px !important; /* Space around cards */
+    background-color: white !important; /* White background for cards */
+    border-radius: 8px !important; /* Rounded corners for cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important; /* Shadow for depth */
+}
+
+/* Image styling */
+.card-body img {
+    width: 80px !important; /* Increased width */
+    height: auto !important; /* Maintain aspect ratio */
+    max-height: 100% !important; /* Limit image height */
+    object-fit: cover !important; /* Ensure image covers the space without distortion */
+    margin-bottom: 10px !important; /* Space below image */
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #07bc0c !important;  /* Green background for buttons */
+    border-color: #07bc0c  !important; /* Green border */
+    color: white  !important; /* White text */
+    font-size: 0.9rem !important; /* Slightly larger font size */
+    padding: 10px !important; /* Increased padding */
+    border-radius: 4px !important;
+    font-weight:600 !important; /* Rounded corners for buttons */
+}
+.btn-primary:hover {
+    background-color: white  !important;
+    border-color: #07bc0c  !important;
+    color: #07bc0c  !important;
+    /* Darker green border on hover */
+}

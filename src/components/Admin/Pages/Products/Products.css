@@ -1,0 +1,88 @@
+.products-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 20px;
+    background-image: url('../../../Farmer/images/new-4.jpg'); /* Replace with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.products-container {
+    color: green !important;
+    width: 100%; /* Full width of the page */
+    max-width: 100%; /* Ensures it doesn't restrict the width */
+    background-color: rgba(255, 255, 255, 0);
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ant-table {
+    
+    font-size: large !important;
+    background-color: rgba(255, 255, 255, 0.341) !important;
+    width: 100%; /* Make the table take the full width of the container */
+    text-align: center; /* Center the content in each cell */
+}
+
+.ant-table-thead > tr > th {
+    padding: 16px;
+    color: green !important;
+    text-align: center; /* Center the text in the header */
+    font-weight: bold; /* Make header text bold */
+}
+
+.ant-table-cell {
+    padding: 16px;
+    text-align: center; /* Center the text in each cell */
+    vertical-align: middle; /* Vertically center the content */
+    font-weight: bold; /* Make cell text bold */
+}
+
+/* Hide the pagination > and < buttons */
+.ant-pagination-prev, .ant-pagination-next {
+    display: none !important;
+}
+
+/* Style the pagination */
+.ant-pagination-item {
+    margin: 0 4px; /* Space between page numbers */
+}
+
+.ant-pagination-item-active a {
+    color: white !important;
+    background-color: green !important; /* Highlight active page */
+    border-color: whitesmoke !important;
+}
+
+/* Additional styles for arrows (if you decide to add them back later) */
+.ant-pagination-item-link {
+    font-size: 16px;
+    color: white !important;
+    background-color: white !important;
+    font-weight: bold;
+}
+
+.ant-pagination-item-link:hover {
+    color: white !important; /* Change color on hover */
+}
+
+/* Adjustments for the title and price rendering */
+.title {
+    margin-bottom: 8px; /* Space between title and price */
+    font-weight: bold;
+}
+
+.price {
+    font-size: 16px;
+    color: #333; /* Adjust color as needed */
+}

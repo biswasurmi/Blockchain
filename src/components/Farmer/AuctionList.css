@@ -1,0 +1,75 @@
+.bg-brand {
+    background-image: url('D:/Blockchain/Blockchain_Olympiad/src/components/Farmer/images/new-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px; /* Adjusted for responsiveness */
+}
+
+.auction-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.auction-card {
+    flex: 1 1 calc(20% - 20px); /* Ensures that each card takes up 20% of the width minus gap */
+    max-width: calc(20% - 20px); /* Limits card width */
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+    text-align: center;
+    box-sizing: border-box; /* Ensure padding is included in the width calculation */
+}
+
+.auction-card img {
+    width: 100%; /* Ensures images are responsive */
+    height: 150px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.card-price {
+    font-size: 16px;
+    color: #079f2a;
+    margin-top: 5px;
+}
+
+.bid-now-button {
+    padding: 8px 16px;
+    background-color: #079f2a;
+    color: white;
+    font-size: 16px !important;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.bid-now-button:hover {
+    background-color: white;
+    color: #079f2a;
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+    .auction-card {
+        flex: 1 1 calc(33.33% - 20px); /* Adjusts to 3 items per row */
+        max-width: calc(33.33% - 20px); /* Limits card width */
+    }
+}

@@ -1,0 +1,107 @@
+.auction-page {
+    /* background-image: url('D:\Blockchain\Blockchain_Olympiad\src\Components\Farmer\images\tomato_back.jpg') !important; */
+    background-image: "/src/Components/Inspector/images/bp.jpeg";
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+
+    z-index: 1;
+}
+
+.product-details {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 40px;
+    z-index: 2;
+}
+
+.product-image {
+    flex: 1;
+    max-width: 300px;
+    padding-right: 40px;
+    margin-left: 60px;
+    padding-top: 40px;
+}
+
+.product-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-info {
+    flex: 2;
+    padding-top: 110px;
+}
+
+.product-info h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.product-meta {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.product-meta p {
+    margin: 5px 0;
+}
+
+.place-bid {
+    margin-top: 20px;
+}
+
+.bid-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.bid-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.submit-bid-button {
+    padding: 10px 20px;
+    background-color: #079f2a;
+    color: white;
+    font-size: 16px;
+    border-color: #07bc0c;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-bid-button:hover {
+    background-color: white;
+    color: #057a22;
+    border-color: #07bc0c;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 420px;
+    position: absolute;
+    padding-left: 42%;
+}
+
+.inspection-logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 7px;
+}
+
+.footer-logo p {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 0;
+}
